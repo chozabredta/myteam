@@ -1,0 +1,315 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Livvic", sans-serif;
+}
+
+
+.container{
+    max-width: 100%;
+    width: 85%;
+    margin: 0 auto;
+}
+
+:root{
+    --global-white: rgba(255, 255, 255, 1);
+    --green: rgba(1, 78, 86, 1);
+
+}
+
+.header-list{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+}
+
+header{
+    background-color: rgba(1, 78, 86, 1);
+    ;
+}
+
+
+.header-link{
+    color: var(--global-white);
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+
+}
+
+.header-link:hover{
+    color: var(--global-white);
+    font-size: 21px;
+    transition: 300ms ease;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.header-btn{
+    border-radius: 40px;
+    border: 2px solid white;
+    width: 153px;
+    height: 48px;
+    background-color: var(--green);
+    color: var(--global-white);
+    font-size: 18px;
+
+
+}
+
+
+.header-btn:hover{
+    border-radius: 40px;
+    border: 2px solid white;
+    transition: 300ms ease;
+    width: 153px;
+    height: 48px;
+    background-color: var(--global-white);
+    color: var(--green);
+    font-size: 18px;
+
+
+}
+
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+.ink-h2{
+    color: var(--global-white);
+    width: 350px;
+    font-size: 64px;
+
+}
+
+
+.ink-p{
+    color: var(--global-white);
+    width: 700px;
+    font-size: 18px;
+    padding-top: 56px;
+    padding-bottom: 120px;
+   
+}
+
+.ink-header{
+    display: flex;
+   gap: 40px;
+   padding-top: 60px;
+}
+
+
+.sec1-h2{
+    font-size: 48px;
+    color: var(--global-white);
+    width: 592px;
+    margin: 0 auto;
+    padding-top: 71px;
+    padding-left: 110px;
+
+}
+
+.sec1{
+    background-color: rgba(0, 64, 71, 1);
+    ;
+}
+
+
+
+
+.ul-img{
+    display: none;
+}
+
+
+
+
+.card{
+    width: 250px;
+    height: 189px;
+   margin-top: 80px;
+   padding-top: 44px;
+   margin-bottom: 50px;
+   width: 350px;
+   height: 274px;
+  background-color: rgba(1, 47, 52, 1);
+  margin-bottom: 170px;
+
+   
+}
+
+
+.p1{
+    color: rgba(121, 200, 199, 1);
+    ;
+    font-size: 18px;
+
+}
+
+.p2{
+    color: var(--global-white);
+    font-size: 15px;
+}
+
+.item{
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 127px;
+}
+
+.main-card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+
+.card-img{
+   padding-bottom: 15px;  
+   padding-left: 127px;
+
+
+}
+
+
+.pilus{
+  position: relative;
+  bottom: -70px;
+  left: 148px;
+
+}
+
+
+
+.sec2-h2{
+    color: var(--global-white);
+    font-size: 48px;
+    width: 700px;
+    margin: 0 auto;
+    padding-top: 113px;
+    padding-bottom: 52px;
+
+
+}
+
+
+.sec2{
+    background-color: rgba(1, 47, 52, 1);
+    ;
+}
+
+
+.logo{
+    width: 165px;
+    height: 22px;
+    padding-bottom: 100px;
+   
+    
+}
+
+
+.main-logo{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+
+.sec3-h2{
+    color: rgba(1, 47, 52, 1);
+    ;
+    font-size: 48px;
+
+}
+
+.sec3-btn{
+    color: rgba(1, 47, 52, 1);
+    background-color: rgba(246, 126, 126, 1);
+    width: 153px;
+    height: 44px;
+    font-size: 18px;
+    border-radius: 30px;
+    border: solid 3px  rgba(1, 47, 52, 1) ;
+    
+}
+
+.sec3-btn:hover{
+    background-color: rgba(1, 47, 52, 1);
+    color: rgba(246, 126, 126, 1);
+    transition: 300ms ease;
+    width: 153px;
+    height: 44px;
+    font-size: 18px;
+    border-radius: 30px;
+    border: solid 3px  rgba(1, 47, 52, 1) ;
+    
+}
+
+
+.sec3{
+    background-color:rgba(246, 126, 126, 1);
+    ;
+}
+
+
+.main-sec3{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 76px;
+    padding-bottom: 76px;
+    align-items: center;
+
+}
+
+
+footer{
+    background-color: rgba(0, 37, 41, 1);
+    ;
+}
+
+
+.main-footer{
+    display: flex;
+    justify-content:  space-between;
+    padding-top: 48px;
+    padding-bottom: 25px;
+
+}
+
+
+.footer-item{
+    display: flex;
+    gap: 15px;
+}
+
+@media screen and (max-width:790) {
+
+    
+.ink-header{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+    
+}
+
+
+@media screen and (max-width:375px) {
+    .ul-img{
+        display: block;
+    }
+
+  
+    
+}
